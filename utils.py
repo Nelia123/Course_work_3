@@ -2,7 +2,7 @@ import json
 
 
 def get_posts_all():
-    with open('data/data.json', 'r', encoding='utf-8') as file:
+    with open('data/posts.json', 'r', encoding='utf-8') as file:
         posts = json.load(file)
     return posts
 
